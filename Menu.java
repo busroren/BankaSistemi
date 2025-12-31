@@ -1,3 +1,6 @@
+//*****************************************************************************************
+//PROJENİN GUI VE SQL BULANAN KISIMLARI HARİÇ HİÇBİR YERDE YAPAYZEKAYA KOD YAZDIRILMAMIŞTIR 
+//*****************************************************************************************
 package BankaSistemi;
 
 import java.util.ArrayList;
@@ -590,3 +593,4 @@ public class Menu {
 	}
 
 }
+
