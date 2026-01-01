@@ -429,7 +429,7 @@ public class Menu {
 	        	}else if(x==1 && !KredisiVarmi(18,index)) {
 	        		System.out.println("\n->Bu krediyi zaten çektiniz tekrar çekemezsiniz...\n");
 	        		continue;
-	        	}else if(x==1 && GelirYeterlilik(20000,index)) {
+	        	}else if(x==1 && !GelirYeterlilik(20000,index)) {
 	        		System.out.println("->Bu kredi için yeterli geliriniz bulunmuyor...");
 	        		continue;
 	        	} else if(x==2 && KredisiVarmi(24,index)&& GelirYeterlilik(15000,index)) {
@@ -443,7 +443,7 @@ public class Menu {
 	        	}else if(x==2 && !KredisiVarmi(24,index)) {
 	        		System.out.println("\n->Bu krediyi zaten çektiniz tekrar çekemezsiniz...\n");
 	        		continue;
-	        	}else if(x==2 && GelirYeterlilik(15000,index)) {
+	        	}else if(x==2 && !GelirYeterlilik(15000,index)) {
 	        		System.out.println("->Bu kredi için yeterli geliriniz bulunmuyor...");
 	        		continue;
 	        	}else if(x==3 && KredisiVarmi(32,index)&& GelirYeterlilik(18000,index)) {
@@ -455,7 +455,7 @@ public class Menu {
 	        	}else if(x==3 && !KredisiVarmi(20000,index)) {
 	        		System.out.println("\n->Bu krediyi zaten çektiniz tekrar çekemezsiniz...\n");
 	        		continue;
-	        	}else if(x==3 && GelirYeterlilik(18000,index)) {
+	        	}else if(x==3 && !GelirYeterlilik(18000,index)) {
 	        		System.out.println("->Bu kredi için yeterli geliriniz bulunmuyor...");
 	        		continue;
 	        	}else if(x==-1) {
@@ -593,4 +593,5 @@ public class Menu {
 	}
 
 }
+
 
